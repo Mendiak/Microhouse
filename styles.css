@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/light-gray-abstract-background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    }
+
+.main-container {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    }
+
+.song-box {
+        max-width: 700px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;       
+    }
+
+.bio {
+    padding: 10px;
+    color: rgb(73, 73, 73);
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.artist-container {
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 3em; 
+}
+
+.artist {
+    padding: 10px;
+    color: black;
+    font-family: "Robot", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+#arrow-right {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#arrow-right:hover {
+    cursor: pointer;
+    color: grey
+}
+
+#arrow-left {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#arrow-left:hover {
+    cursor: pointer;
+    color: grey
+}
+
+.artist-image {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+iframe {
+    padding: 10px
+}
+
+
